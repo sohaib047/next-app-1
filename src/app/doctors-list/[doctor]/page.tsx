@@ -1,10 +1,10 @@
 'use client';
 
-export default function Doctor({props}: any){
-    console.log(props)
+export default function Doctor({params}: any){
+    console.log(params)
     return(
         <div>
-            Name: {props}
+            Name: {params.doctor}
         </div>
     )
 }

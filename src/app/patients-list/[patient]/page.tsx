@@ -1,10 +1,10 @@
 'use client';
 
-export default function Patient({props}: any){
-    console.log(props)
+export default function Patient({params}: any){
+    console.log(params)
     return(
         <div>
-            Name: {props}
+            Name: {params.patient}
         </div>
     )
 }

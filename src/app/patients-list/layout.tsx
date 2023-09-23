@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Layout({ children }: { children: React.ReactNode}) {
+export default function PatientLayout({ children }: any) {
     return (
         <div>
             <h2 className="mt-2 text-center border-2 m-2 rounded border-slate-300 hover:border-indigo-300" >Patient List</h2>
